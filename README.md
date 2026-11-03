@@ -52,8 +52,8 @@ Siga os passos para popular seu banco de dados:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/pokedata-etl.git](https://github.com/SEU-USUARIO/pokedata-etl.git)
-    cd pokedata-etl
+    git clone https://github.com/FarandaMauricio-make/pokemon-etl-pipeline.git
+    cd pokemon-etl-pipeline
     ```
 
 2.  **Crie um ambiente virtual (Recomendado):**
@@ -66,14 +66,14 @@ Siga os passos para popular seu banco de dados:
     ```
 
 3.  **Instale as dependências:**
-    Você precisará do `aiohttp` e `requests`.
+    As dependências (`aiohttp` e `requests`) estão no `requirements.txt`.
     ```bash
-    pip install aiohttp requests
+    pip install -r requirements.txt
     ```
 
 4.  **Execute o ETL:**
     ```bash
-    python seu_script.py
+    python Pokemon_pc.py
     ```
     *Aguarde a barra de progresso no terminal. O processo pode levar alguns minutos dependendo da sua conexão, pois baixará dados de mais de 1000 Pokémons.*
 
